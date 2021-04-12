@@ -1,7 +1,7 @@
 import { NavItem } from "./NavItem";
 import { navbarItems } from "../../../core/services/navbarItems";
-import uuid from 'react-uuid';
 import { Link } from "react-router-dom";
+import uuid from 'react-uuid';
 import logoCompany from "../../../assets/logos/logo-templeton.svg";
 import '.././../../styles/_components/navbar.css';
 
@@ -30,7 +30,7 @@ export const NavBar = () => {
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <ul className="navbar-nav mb-2 mb-lg-0 ms-auto text-center">
                         {
                             navbarItems.map(item =>
                                 <NavItem

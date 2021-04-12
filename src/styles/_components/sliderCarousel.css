@@ -1,0 +1,26 @@
+/* Slider */
+
+.bSWeAW {
+    background-color: #62356d !important;
+    color: #fff !important;
+    border: none;
+}
+
+.cetQhm {
+    box-shadow: none!important;
+    background-color: #7b4788 !important;
+}
+
+.item-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 100%;
+}
+
+.item-slider img{
+    object-fit: scale-down;
+    height: 100%;
+    width: 100%;
+}

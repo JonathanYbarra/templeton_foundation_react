@@ -32,7 +32,7 @@ export const galleryImages = [
   {
     name: "Group img",
     path:
-      "https://www.filoexactas.exactas.uba.ar/project-ontology/imagenes/grupo.jpg",
+      "https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg",
   },
   {
     name: "Group img",

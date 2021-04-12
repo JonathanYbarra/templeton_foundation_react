@@ -28,29 +28,16 @@
     opacity: 1;
 }
 
-/* Slider */
-
-.bSWeAW {
-    background-color: #62356d !important;
-    color: #fff !important;
-    border: none;
-}
-
-.cetQhm {
-    box-shadow: none!important;
-    background-color: #7b4788 !important;
-}
-
 @media (max-width: 413.98px) {
     .content {
         padding: 30px 0;
-        min-height: 95vh;
+        min-height: 83vh!important;
     }
     .content h1 {
-        font-size: 31px;
+        font-size: 28px!important;
     }
     .content p {
-        font-size: 17px;
+        font-size: 13px!important;
     }
     .wave {
         bottom: -11px;
@@ -118,6 +105,16 @@
     }
     .wave {
         bottom: -11px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content {
+        min-height: 95vh;
+    }
+
+    .wave {
+        bottom: -60px;
     }
 }
 
