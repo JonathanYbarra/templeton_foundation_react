@@ -1,0 +1,127 @@
+.content { 
+    /* background: url(../../assets/images/jpg/quantum-backgrounf.jpg) no-repeat; */
+    /* background: url(../../assets/images/jpg/content-background.jpg) no-repeat; */
+    background-color: rgb(9, 9, 9);
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    margin-top: 3rem;
+    padding: 150px 0;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 48px;
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.wave {
+    position: absolute;
+    width: 100%;
+    bottom: -126px;
+    color: #fff;
+    opacity: 1;
+}
+
+/* Slider */
+
+.bSWeAW {
+    background-color: #62356d !important;
+    color: #fff !important;
+    border: none;
+}
+
+.cetQhm {
+    box-shadow: none!important;
+    background-color: #7b4788 !important;
+}
+
+@media (max-width: 413.98px) {
+    .content {
+        padding: 30px 0;
+        min-height: 95vh;
+    }
+    .content h1 {
+        font-size: 31px;
+    }
+    .content p {
+        font-size: 17px;
+    }
+    .wave {
+        bottom: -11px;
+    }
+}
+
+@media (max-width: 573.98px) {
+    .content {
+        padding: 35px 0;
+        min-height: 93vh;
+    }
+    .content h1 {
+        font-size: 31px;
+    }
+    .content p {
+        font-size: 15px;
+    }
+    .wave {
+        bottom: -11px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .content {
+        padding: 35px 0;
+        min-height: 93vh;
+    }
+    .content h1 {
+        font-size: 31px;
+    }
+    .content p {
+        font-size: 17px;
+    }
+    .wave {
+        bottom: -11px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .content {
+        padding: 55px 0;
+        min-height: 93vh;
+    }
+    .content h1 {
+        font-size: 31px;
+    }
+    .content p {
+        font-size: 17px;
+    }
+    .wave {
+        bottom: -11px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .content {
+        padding: 75px 0;
+        min-height: 93vh;
+    }
+    .content h1 {
+        font-size: 31px;
+    }
+    .content p {
+        font-size: 17px;
+    }
+    .wave {
+        bottom: -11px;
+    }
+}
+
+/* $media-breakpoint-down-sm: 573.98px;
+$media-breakpoint-down-md: 767.98px;
+$media-breakpoint-down-lg: 991.98px;
+$media-breakpoint-down-xl: 1199.98px; */
