@@ -40,26 +40,29 @@ export const TheProject = () => {
                 </div>
             </div>
 
-            <div className="container mt-1">
+            <div className="container mt-1 content-body">
 
                 <SliderImages />
 
 
                 <div className="mt-5">
-
+                    <div className="d-flex justify-content-center">
+                        <h2>The Cosmological Origin of the Arrow of Time</h2>
+                    </div>
 
                     {
                         projectTextContentHeader.textContextBody.map(text =>
-                            <p key={uuid()}>{text}</p>
+                            <p key={uuid()} className="text-center">{text}</p>
                         )
                     }
 
-                    <div className="d-flex">
+
+                    <div className="d-flex justify-content-center mt-5">
                         <b>Project Leader:</b>
                         <p style={{ marginLeft: 8 }}>Prof. Dr. Olimpia Lombardi</p>
                     </div>
 
-                    <div className="d-flex">
+                    <div className="d-flex justify-content-center">
                         <b>Project Co-Leader:</b>
                         <p style={{ marginLeft: 8 }}>Dr. Sebastian Fortin</p>
                     </div>
