@@ -3,7 +3,7 @@ import '../../styles/_components/project.css';
 import uuid from 'react-uuid';
 import Particles from 'react-particles-js';
 import { particlesConfig } from '../../config/particlesConfig';
-import { SliderImages } from '../../components/project/SliderImages';
+import CarouselImages from '../../components/project/Carousel';
 
 export const TheProject = () => {
 
@@ -12,7 +12,7 @@ export const TheProject = () => {
             <div style={{ position: 'absolute' }}>
                 <Particles height="100vh" width="100vw" params={particlesConfig} />
             </div>
-            <div className="content">
+            <div className="content animate__animated animate__slideInDown">
                 <div className="row">
                     <div className="col-12">
                         <div className="container">
@@ -42,7 +42,9 @@ export const TheProject = () => {
 
             <div className="container mt-1 content-body">
 
-                <SliderImages />
+                <div className="d-flex justify-content-center animate__animated animate__fadeInLeft">
+                    <CarouselImages />
+                </div>
 
 
                 <div className="mt-5">

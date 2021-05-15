@@ -15,33 +15,32 @@ export const projectTextContentHeader = {
 
 export const galleryImages = [
   {
-    name: "Group img",
-    path:
+    label: "Group img",
+    imgPath:
       "https://www.filoexactas.exactas.uba.ar/project-ontology/imagenes/grupo.jpg",
   },
   {
-    name: "Getty img",
-    path:
-      "https://media.gettyimages.com/videos/quantum-theory-time-space-explainer-4k-footage-video-id1278307168?s=640x640",
+    label: "Getty img",
+    imgPath:
+      "https://cdnmundo1.img.sputniknews.com/img/07e5/02/11/1107866715_0:100:1920:1180_1920x0_80_0_0_60e3d272f61ccc83e428c9cdd3bb2b32.jpg",
   },
   {
-    name: "Group img",
-    path:
-      "https://static8.depositphotos.com/1025854/889/v/600/depositphotos_8894326-stock-illustration-wireframe-symbol-wormhole.jpg",
+    label: "Group img",
+    imgPath: "https://i.ytimg.com/vi/QkWT-xMTm1M/maxresdefault.jpg",
   },
   {
-    name: "Group img",
-    path:
-      "https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg",
+    label: "Group img",
+    imgPath:
+      "https://images.labroots.com/content_article_profile_image_9d26fdf0f96eb2180352f67ef4dc420d1c3806f5_6705.png",
   },
   {
-    name: "Group img",
-    path:
+    label: "Group img",
+    imgPath:
       "https://www.filoexactas.exactas.uba.ar/project-ontology/imagenes/grupo.jpg",
   },
   {
-    name: "Group img",
-    path:
-      "https://www.filoexactas.exactas.uba.ar/project-ontology/imagenes/grupo.jpg",
+    label: "Group img",
+    imgPath:
+      "https://www.sciencenews.org/wp-content/uploads/2015/07/arrow_opener_0.jpg",
   },
 ];

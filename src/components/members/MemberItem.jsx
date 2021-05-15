@@ -6,7 +6,7 @@ export const MemberItem = ({ member }) => {
 
     return (
         <div
-            className={`col-12 col-xl-6 animate__animated animate__${fadeDirection(member.nameType)}`}
+            className={`col-12 col-xl-6 animate__animated animate__${fadeDirection(member.type)}`}
         >
             <div className="card user-card">
                 <div className="card-header">
@@ -15,7 +15,7 @@ export const MemberItem = ({ member }) => {
 
                 <div className="card-block">
                     <div className="user-image">
-                        <img src={member.photo_profil} alt="img-radius" alt={member.name} />
+                        <img src={member.photo_profil} alt={member.name} />
                     </div>
                     <h6>{member.name}</h6>
                     <p className="text-muted">
