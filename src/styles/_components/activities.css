@@ -1,0 +1,15 @@
+.container-activities {
+    margin-top: 4.7rem;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+    color: #2e1534 !important;
+}
+
+.PrivateTabIndicator-colorPrimary-25, .PrivateTabIndicator-colorPrimary-67 {
+    background-color: #2e1534 !important;
+}
+
+.MuiInput-underline:after {
+    border-bottom: #2e1534 !important;
+}
