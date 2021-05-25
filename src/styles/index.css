@@ -30,6 +30,10 @@
   cursor: pointer;
 }
 
-.minHeight-100{
+.minHeight-100 {
   min-height: 60vh;
+}
+
+.bg-primary {
+  background-color: #572965!important;
 }

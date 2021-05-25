@@ -15,8 +15,9 @@ export const navbarItems = [
     name: "Production",
     pathToLink: "/production"
   },
-  {
-    name: "Work Shop",
-    pathToLink: "/work-shop"
-  }
 ];
+
+// {
+//   name: "Work Shop",
+//   pathToLink: "/work-shop"
+// }
