@@ -21,7 +21,7 @@ export const Activities = () => {
         setValue(index);
     };
     return (
-        <div className="container-activities">
+        <div className="container-activities animate__animated animate__slideInDown">
             <div className="d-flex justify-content-center pt-5 mb-5">
                 <h4>The activities organized by the group are divided into three groups</h4>
             </div>

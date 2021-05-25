@@ -1,17 +1,12 @@
 import { projectTextContentHeader } from '../../core/services/theProject';
-import '../../styles/_components/project.css';
 import uuid from 'react-uuid';
-import Particles from 'react-particles-js';
-import { particlesConfig } from '../../config/particlesConfig';
 import CarouselImages from '../../components/project/Carousel';
+import '../../styles/_components/project.css';
 
 export const TheProject = () => {
 
     return (
         <>
-            <div style={{ position: 'absolute' }}>
-                <Particles height="100vh" width="100vw" params={particlesConfig} />
-            </div>
             <div className="content animate__animated animate__slideInDown">
                 <div className="row">
                     <div className="col-12">
@@ -24,28 +19,14 @@ export const TheProject = () => {
                                 )
                             }
                         </div>
-
-                        {/* wave */}
-                        <svg
-                            className="wave"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 1440 320">
-                            <path
-                                fill="#ffff"
-                                fillOpacity="1" d="M0,192L48,176C96,160,192,128,288,117.3C384,107,480,117,576,144C672,171,768,213,864,197.3C960,181,1056,107,1152,106.7C1248,107,1344,181,1392,218.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-                            >
-                            </path>
-                        </svg>
                     </div>
                 </div>
             </div>
 
             <div className="container mt-1 content-body">
-
                 <div className="d-flex justify-content-center animate__animated animate__fadeInLeft">
                     <CarouselImages />
                 </div>
-
 
                 <div className="mt-5">
                     <div className="d-flex justify-content-center">
@@ -58,15 +39,14 @@ export const TheProject = () => {
                         )
                     }
 
-
                     <div className="d-flex justify-content-center mt-5">
                         <b>Project Leader:</b>
-                        <p style={{ marginLeft: 8 }}>Prof. Dr. Olimpia Lombardi</p>
+                        <p className="ms-2">Prof. Dr. Olimpia Lombardi</p>
                     </div>
 
                     <div className="d-flex justify-content-center">
                         <b>Project Co-Leader:</b>
-                        <p style={{ marginLeft: 8 }}>Dr. Sebastian Fortin</p>
+                        <p className="ms-2">Dr. Sebastian Fortin</p>
                     </div>
                 </div>
             </div>

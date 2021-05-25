@@ -25,14 +25,6 @@
     font-weight: 300!important;
 }
 
-.wave {
-    position: absolute;
-    width: 100%;
-    bottom: -126px;
-    color: #fff;
-    opacity: 1;
-}
-
 @media (max-width: 413.98px) {
     .content {
         padding: 30px 0;
@@ -43,10 +35,7 @@
     }
     .content p {
         font-size: 13px!important;
-    }
-    .wave {
-        bottom: -11px;
-    }
+    } 
 }
 
 @media (max-width: 573.98px) {
@@ -59,10 +48,7 @@
     }
     .content p {
         font-size: 15px;
-    }
-    .wave {
-        bottom: -11px;
-    }
+    } 
 }
 
 @media (max-width: 767.98px) {
@@ -75,10 +61,7 @@
     }
     .content p {
         font-size: 17px;
-    }
-    .wave {
-        bottom: -11px;
-    }
+    } 
 }
 
 @media (max-width: 991.98px) {
@@ -91,10 +74,7 @@
     }
     .content p {
         font-size: 17px;
-    }
-    .wave {
-        bottom: -11px;
-    }
+    } 
 }
 
 @media (max-width: 1199.98px) {
@@ -107,10 +87,7 @@
     }
     .content p {
         font-size: 17px;
-    }
-    .wave {
-        bottom: -11px;
-    }
+    } 
 }
 
 @media (min-width: 1200px) {
