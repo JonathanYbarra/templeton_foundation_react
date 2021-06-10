@@ -24,9 +24,9 @@ export const SubNavbar = ({ handleChange, value }) => {
                     variant="fullWidth"
                     aria-label="full width tabs"
                 >
-                    <Tab label="Internal Seminars" />
-                    <Tab label="Scientific Meeting" />
-                    <Tab label="Talks For All Public" />
+                    <Tab label="Monthly seminars" />
+                    <Tab label="International workshop" />
+                    <Tab label="Talks for general public" />
                 </Tabs>
             </AppBar>
         </div>

@@ -3,7 +3,7 @@ import { SubNavbar } from '../../components/activities/SubNavbar';
 import SwipeableViews from 'react-swipeable-views';
 import { useTheme } from '@material-ui/core/styles';
 import { TabPanel } from '../../components/activities/TabPanel';
-import { InternalSeminar } from '../../components/activities/InternalSeminar';
+import { MonthlySeminars } from '../../components/activities/MonthlySeminars';
 import { ScientificMeeting } from '../../components/activities/ScientificMeeting';
 import { TalksForAllPublic } from '../../components/activities/TalksForAllPublic';
 import '../../styles/_components/activities.css';
@@ -47,7 +47,7 @@ export const Activities = () => {
                                         dir={theme.direction}
                                         key={i}
                                     >
-                                        {value === 0 && <InternalSeminar />}
+                                        {value === 0 && <MonthlySeminars />}
 
                                         {value === 1 && <ScientificMeeting />}
 

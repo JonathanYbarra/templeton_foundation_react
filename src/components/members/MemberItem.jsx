@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Google } from 'react-bootstrap-icons';
+import { Google } from 'react-bootstrap-icons';
 
 export const MemberItem = ({ member }) => {
 
@@ -15,7 +15,7 @@ export const MemberItem = ({ member }) => {
 
                 <div className="card-block">
                     <div className="user-image">
-                        <img src={member.photo_profil} alt={member.name} />
+                        <img src={member.photo_profil} alt={member.name} className="img-radius" />
                     </div>
                     <h6>{member.name}</h6>
                     <p className="text-muted">
@@ -24,14 +24,11 @@ export const MemberItem = ({ member }) => {
                     <hr />
 
                     <div className="row justify-content-center user-social-link">
-                        <div className="col-auto animate__animated animate__slideInUp">
-                            <Facebook className="text-facebook" />
-                        </div>
-                        <div className="col-auto animate__animated animate__slideInDown">
-                            <Twitter className="text-twitter" />
-                        </div>
-                        <div className="col-auto animate__animated animate__slideInUp">
-                            <Google className="text-google" />
+                        <div
+                            className="col-auto animate__animated animate__slideInUp d-flex align-items-center text-contact"
+                        >
+                            <Google />
+                            <span className="ms-2">{member.contact.email}</span>
                         </div>
                     </div>
                 </div>

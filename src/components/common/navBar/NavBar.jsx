@@ -38,6 +38,7 @@ export const NavBar = () => {
                                     key={uuid()}
                                     nameItem={item.name}
                                     pathToLink={item.pathToLink}
+                                    item={item}
                                 />
                             )
                         }

@@ -1,18 +1,64 @@
-import React from 'react'
+import { useEffect, useState } from 'react';
+import { CustomSelect } from './CustomSelect';
+import { talksForGeneralPublic } from '../../core/services/activities';
 
 export const TalksForAllPublic = () => {
+
+    const [date, setDate] = useState('');
+    const [talksAllPublic, setTalksAllPublic] = useState(null);
+
+    useEffect(() => {
+        findtalksAllPublic();
+    }, [talksAllPublic, date]);
+
+    const handleChange = ({ target }) => {
+        setDate(target.value);
+    };
+
+    const findtalksAllPublic = () => {
+        setTalksAllPublic(talksForGeneralPublic.find(talk => talk.id === date));
+    }
+
+    const renderContent = () => {
+        return (
+            <div className="my-5">
+                {/* <h5 className="my-5 text-center">{talksAllPublic.title}</h5> */}
+
+                <p className="my-5">
+                    {talksAllPublic.description}
+                </p>
+
+                <span>
+                    {talksAllPublic.directedBy}
+                </span>
+            </div>
+        )
+    }
+
     return (
-        <div>
-            <p className="text-end mt-5"><b>June 2018</b></p>
-            <div className="d-flex justify-content-center mt-5">
-                <img
-                    src="https://www.filoexactas.exactas.uba.ar/project-ontology/imagenes/20180627-0.jpg"
-                    alt="Instituto de ciencias"
+        <>
+            <div className="d-flex justify-content-between align-items-center mt-5">
+                {
+                    talksAllPublic && talksAllPublic.pdfPresentation ?
+                        <div className="d-flex">
+                            <p>See presentation</p>
+                            <a href={talksAllPublic.pdfPresentation} target="_blank" className="ms-1 text-decoration-none">click here.</a>
+                        </div> :
+                        <div></div>
+                }
+
+                <CustomSelect
+                    handleChange={handleChange}
+                    date={date}
+                    options={talksForGeneralPublic}
                 />
             </div>
-            <p className="mt-5">
-                The "Cuántica para Todos" talk took place at the UNGS on June 27, 2018. In that occasion, PhD. F. Holik and PhD. M. Rodríquez gave two talks about the general principles of quantum mechanics, determinism and quantum probabilities for economics students and public.
-            </p>
-        </div>
+
+            {
+                talksAllPublic ?
+                    renderContent() :
+                    <p className="text-center text-danger my-5">To see an event please select a date</p>
+            }
+        </>
     )
 }

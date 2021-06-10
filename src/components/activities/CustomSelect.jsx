@@ -3,7 +3,6 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
-import { internalSeminars } from '../../core/services/activities';
 
 const useStyles = makeStyles((theme) => ({
     formControl: {
@@ -15,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export const CustomSelect = ({ handleChange, date }) => {
+export const CustomSelect = ({ handleChange, date, options }) => {
     const classes = useStyles();
 
     return (
@@ -31,12 +30,12 @@ export const CustomSelect = ({ handleChange, date }) => {
                     <em>None</em>
                 </MenuItem>
                 {
-                    internalSeminars.map(internalSeminar =>
+                    options.map(option =>
                         <MenuItem
-                            value={internalSeminar.id}
-                            key={internalSeminar.id}
+                            value={option.id}
+                            key={option.id}
                         >
-                            {internalSeminar.date}
+                            {option.date}
                         </MenuItem>
                     )
                 }

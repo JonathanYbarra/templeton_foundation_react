@@ -57,6 +57,7 @@
     left: 5px;
     width: 100px;
     height: 100px;
+    object-fit: cover;
 }
 
 .img-radius {
@@ -139,8 +140,9 @@
     color: #42C0FB;
 }
 
-.text-google {
+.text-contact, .text-contact span {
     color: #ec5d4a;
+    cursor: pointer;
 }
 
 .user-card .card-block .user-image:before {

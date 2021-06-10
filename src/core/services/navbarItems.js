@@ -1,23 +1,21 @@
 export const navbarItems = [
   {
     name: "The project",
-    pathToLink: "/project"
+    pathToLink: "/project",
   },
   {
     name: "Members",
-    pathToLink: "/members"
+    pathToLink: "/members",
   },
   {
     name: "Activities",
-    pathToLink: "/activities"
+    pathToLink: "/activities",
   },
   {
     name: "Production",
-    pathToLink: "/production"
+    items: [
+      { to: "/refered-publications", name: "Refereed publications" },
+      { to: "/presentations-academic", name: "Presentations to academic events" },
+    ],
   },
 ];
-
-// {
-//   name: "Work Shop",
-//   pathToLink: "/work-shop"
-// }
