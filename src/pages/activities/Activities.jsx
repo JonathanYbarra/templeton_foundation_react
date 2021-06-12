@@ -4,7 +4,7 @@ import SwipeableViews from 'react-swipeable-views';
 import { useTheme } from '@material-ui/core/styles';
 import { TabPanel } from '../../components/activities/TabPanel';
 import { MonthlySeminars } from '../../components/activities/MonthlySeminars';
-import { ScientificMeeting } from '../../components/activities/ScientificMeeting';
+import { InternationalWorkShop } from '../../components/activities/InternationalWorkShop';
 import { TalksForAllPublic } from '../../components/activities/TalksForAllPublic';
 import '../../styles/_components/activities.css';
 
@@ -26,7 +26,7 @@ export const Activities = () => {
                 <h4>The activities organized by the group are divided into three groups</h4>
             </div>
 
-            <div className="row minHeight-100">
+            <div className="row minHeight-60">
                 <div className="col-8 justify-content-center offset-2">
                     <div className="d-flex flex-column">
                         <SubNavbar
@@ -49,7 +49,7 @@ export const Activities = () => {
                                     >
                                         {value === 0 && <MonthlySeminars />}
 
-                                        {value === 1 && <ScientificMeeting />}
+                                        {value === 1 && <InternationalWorkShop />}
 
                                         {value === 2 && <TalksForAllPublic />}
 

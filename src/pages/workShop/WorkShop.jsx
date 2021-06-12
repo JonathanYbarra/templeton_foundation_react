@@ -2,7 +2,7 @@
 export const WorkShop = () => {
     return (
         <div>
-            WorkShop
+            To be annouced in 2022
         </div>
     )
 }

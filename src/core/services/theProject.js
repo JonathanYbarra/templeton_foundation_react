@@ -1,7 +1,7 @@
 export const projectTextContentHeader = {
   titleH1: "The Cosmological Origin of the Arrow of Time",
   subtitleP: [
-    "The Big Question underlying this project is, what is the nature of time according to our best physical theories?",
+    "The Big Question underlying this project is: what is the nature of time according to our best physical theories?",
     "In order to answer such a question, the project will start off from a global view on the arrow of time and then move to local contexts. The ultimate goal is two-fold: on the one hand, to elaborate a unified approach to the arrow of time that hinges essentially on geometrical properties of the universe as awhole; and, on the other, to articulate it with local time asymmetries.",
     "The strategic goal of our project is to actively promote the interdisciplinary dialog among physicists and philosophers in Latin America around deep philosophical issues on the temporal nature of our universe.",
   ],
@@ -14,32 +14,17 @@ export const projectTextContentHeader = {
 
 export const galleryImages = [
   {
-    label: "Group img",
-    imgPath:
-      "https://www.filoexactas.exactas.uba.ar/project-ontology/imagenes/grupo.jpg",
-  },
-  {
-    label: "Getty img",
-    imgPath:
-      "https://cdnmundo1.img.sputniknews.com/img/07e5/02/11/1107866715_0:100:1920:1180_1920x0_80_0_0_60e3d272f61ccc83e428c9cdd3bb2b32.jpg",
-  },
-  {
-    label: "Group img",
-    imgPath: "https://i.ytimg.com/vi/QkWT-xMTm1M/maxresdefault.jpg",
+    label: "The Arrow of time",
+    imgPath: "/images/theProject/arrow-of-time.png",
   },
   {
     label: "Group img",
     imgPath:
-      "https://images.labroots.com/content_article_profile_image_9d26fdf0f96eb2180352f67ef4dc420d1c3806f5_6705.png",
+      "/images/theProject/arrow_of_time_2.png",
   },
   {
-    label: "Group img",
+    label: "Arrow opener",
     imgPath:
-      "https://www.filoexactas.exactas.uba.ar/project-ontology/imagenes/grupo.jpg",
-  },
-  {
-    label: "Group img",
-    imgPath:
-      "https://www.sciencenews.org/wp-content/uploads/2015/07/arrow_opener_0.jpg",
+      "/images/theProject/arrow_opener_0.jpeg",
   },
 ];

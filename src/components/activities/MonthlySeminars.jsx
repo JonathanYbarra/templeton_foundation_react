@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { monthlySeminars } from '../../core/services/activities';
 import { CustomSelect } from './CustomSelect';
 
@@ -43,7 +42,7 @@ export const MonthlySeminars = () => {
                     internalSeminar ?
                         <p className="d-flex align-items-center mr-2">
                             See the presentation in
-                                <span className="material-icons cursor-pointer">picture_as_pdf</span>
+                            <span className="material-icons cursor-pointer">picture_as_pdf</span>
                         </p> :
                         <div></div>
                 }
@@ -52,6 +51,7 @@ export const MonthlySeminars = () => {
                     handleChange={handleChange}
                     date={date}
                     options={monthlySeminars}
+                    selectDate={true}
                 />
             </div>
 

@@ -23,8 +23,8 @@ export const TheProject = () => {
                 </div>
             </div>
 
-            <div className="container mt-1 content-body">
-                <div className="d-flex justify-content-center animate__animated animate__fadeInLeft">
+            <div className="container content-body">
+            <div className="d-flex justify-content-center animate__animated animate__fadeInLeft mt-5">
                     <CarouselImages />
                 </div>
 

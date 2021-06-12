@@ -57,7 +57,7 @@ export const TalksForAllPublic = () => {
             {
                 talksAllPublic ?
                     renderContent() :
-                    <p className="text-center text-danger my-5">To see an event please select a date</p>
+                    <p className="text-center text-danger my-5">Please select an event</p>
             }
         </>
     )

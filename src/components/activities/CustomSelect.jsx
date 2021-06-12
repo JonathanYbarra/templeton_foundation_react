@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export const CustomSelect = ({ handleChange, date, options }) => {
+export const CustomSelect = ({ handleChange, date, options, selectDate = false }) => {
     const classes = useStyles();
 
     return (
@@ -41,7 +41,7 @@ export const CustomSelect = ({ handleChange, date, options }) => {
                 }
 
             </Select>
-            <FormHelperText>Select a date</FormHelperText>
+            {selectDate && <FormHelperText>Select a date</FormHelperText>}
         </FormControl>
     )
 }

@@ -1,7 +1,7 @@
 
 export const PresentationsAcademic = () => {
     return (
-        <div className="d-flex justify-content-center align-items-center mt-5 minHeight-100 container">
+        <div className="d-flex justify-content-center align-items-center mt-5 minHeight-70 container">
             <div>
                 <p className="mt-5">
                     <b>“Three facets of time reversal”</b>, by Cristian López. Invited Speaker at the Université Catholique de

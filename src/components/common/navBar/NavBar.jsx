@@ -2,7 +2,7 @@ import { NavItem } from "./NavItem";
 import { navbarItems } from "../../../core/services/navbarItems";
 import { Link } from "react-router-dom";
 import uuid from 'react-uuid';
-import logoCompany from "../../../assets/logos/logo-templeton.svg";
+import logoCompany from "../../../logos/logo-templeton.svg";
 import '.././../../styles/_components/navbar.css';
 
 export const NavBar = () => {

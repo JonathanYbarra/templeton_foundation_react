@@ -30,8 +30,12 @@
   cursor: pointer;
 }
 
-.minHeight-100 {
-  min-height: 60vh;
+.minHeight-70 {
+  min-height: 70vh;
+}
+
+.minHeight-40 {
+  min-height: 40vh;
 }
 
 .bg-primary, .dropdown-item.active, .dropdown-item:active {
