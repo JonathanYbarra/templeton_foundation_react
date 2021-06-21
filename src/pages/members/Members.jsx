@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
-import { MemberItem } from '../../components/members/MemberItem';
-import { team_members, text_title_member } from '../../core/services/members';
-import uuid from 'react-uuid';
+import { text_title_member, team_members_researcher, team_members_students } from '../../core/services/members';
+import { MembersList } from '../../components/members/MembersList';
 import '../../styles/_components/members.css';
 
 export const Members = () => {
@@ -20,7 +19,6 @@ export const Members = () => {
     const toggleActive = (nameType) => {
         setActiveTypeMember({ [nameType]: "active-type-members", nameType })
     }
-
 
     return (
         <div className="mt-5">
@@ -49,14 +47,14 @@ export const Members = () => {
                     </div>
                 </div>
 
-                <div className="row">
-                    {
-                        team_members.map(member =>
-                            member.type === activeTypeMember.nameType &&
-                            <MemberItem member={member} key={uuid()} />
-                        )
-                    }
-                </div>
+                {
+                    activeTypeMember.nameType === "students" &&
+                    <MembersList memberList={team_members_students} />
+                }
+                {
+                    activeTypeMember.nameType === "researcher" &&
+                    <MembersList memberList={team_members_researcher} />
+                }
             </div>
         </div>
     )

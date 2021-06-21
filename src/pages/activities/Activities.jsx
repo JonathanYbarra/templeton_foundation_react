@@ -26,7 +26,7 @@ export const Activities = () => {
                 <h4>The activities organized by the group are divided into three groups</h4>
             </div>
 
-            <div className="row minHeight-60">
+            <div className="row minHeight-50">
                 <div className="col-8 justify-content-center offset-2">
                     <div className="d-flex flex-column">
                         <SubNavbar

@@ -30,6 +30,10 @@
   cursor: pointer;
 }
 
+.minHeight-50 {
+  min-height: 50vh;
+}
+
 .minHeight-70 {
   min-height: 70vh;
 }

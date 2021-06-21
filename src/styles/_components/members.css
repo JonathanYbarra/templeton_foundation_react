@@ -186,7 +186,7 @@
     background-color: #572965!important;
 }
 
-.active-type-members,.active-type-members:focus {
+.active-type-members, .active-type-members:focus {
     outline: none!important;
     border: none!important;
     box-shadow: none!important;
@@ -195,4 +195,24 @@
 .card-footer {
     background: transparent!important;
     border: none!important;
+}
+
+.mini-orcid-icon {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAABnElEQVQ4y52UvUtCURjGf968lmQhFGXYEH3QUg0JhkPR4l5T0IUosMGxv6C1KdpahCZbGxscGiXBloIKo0ESEYpEM71+3NvgvXW0j3vp2c57zvPjPQ/nPWCheDrkiKdDDqtzjl/MQSAChAG/Uc4BCSCmBJKpP0HxdGgQOAY2LRo4BaJKIFn6BjIgCSDolPrQ9Caa3vwLlgLCJkwSNo6BIEBoYp8537ZVLEHD89WRkcmlWex3+WhqNeqtMrLk/nTWWxVA7wYuKYFkymksIuLO/FiEYjXDazXD6tQhJTWLLLmRezxkns+4zsfQdQ3B+wkK/9Z/Sc1yfrsFgFseYnnyAE1vcJM/QfSaGfmxoWrjhaunI2aG18WyvztsW6rUC/Q6vd/qJihnFzTuXeG5ciOWcgBmRglg9yejLLkZHVhEcrgY8SwwPbzGxcOeeCQhgmIi6LV6z5uaR20WKdYemR3ZQNMalNUs53c7vNcLIigGnS87jvVodOtUCSSV7rCjtJ+9XaUMT0fYGDMTpj2Qlp0gzFnH1UT95xuxlN2P7QOpwZChGlWkWQAAAABJRU5ErkJggg==) no-repeat;
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.orcid-id-link {
+    font-size: 18px;
+    color: #494a4c;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.icon-researchgate {
+    width: 22px;
+    height: 22px;
 }
