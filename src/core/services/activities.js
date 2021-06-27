@@ -1,7 +1,7 @@
 export const monthlySeminars = [
   {
     id: 1,
-    pdfPresentation: "../../assets/manual.pdf",
+    pdfPresentation: "/pdfs/activities/pruebaPDF.pdf",
     title: "La Flecha del Tiempo en Cosmología",
     description:
       "En cosmología, suele denominarse “flecha cosmológica del tiempo” al sentido temporal de expansión del universo: dicha flecha será global en un universo Big Bang-Big Chill, pero apuntará en distintos sentidos en un universo Big Bang-Big Crunch. Esta terminología privilegia el “radio” del universo frente a otras propiedades geométricas del espacio-tiempo. Pero, ¿por qué aceptar el carácter privilegiado del radio respecto de otras propiedades geométricas del universo? En el presente trabajo se argumentará que: (i) La flecha del tiempo cosmológica no es una consecuencia inevitable de las leyes físicas: es una propiedad contingente del espacio-tiempo, (ii) los modelos cosmológicos standard de la cosmología contemporánea cumplen las condiciones necesarias para posee una flecha cosmológica del tiempo con alta probabilidad, y (iii) el carácter contingente de la flecha cosmológica del tiempo no minimiza su carácter objetivo.",

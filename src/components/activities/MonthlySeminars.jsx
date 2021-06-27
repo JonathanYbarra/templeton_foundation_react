@@ -42,7 +42,9 @@ export const MonthlySeminars = () => {
                     internalSeminar ?
                         <p className="d-flex align-items-center mr-2">
                             See the presentation in
-                            <span className="material-icons cursor-pointer">picture_as_pdf</span>
+                            <a href={internalSeminar.pdfPresentation} target="_blank" rel="noreferrer">
+                                <span className="material-icons cursor-pointer">picture_as_pdf</span>
+                            </a>
                         </p> :
                         <div></div>
                 }
