@@ -23,6 +23,7 @@ export const team_members_researcher = [
       "Sebastian has a degree and a PhD in Physics from the University of Buenos Aires. He is also PhD in Epistemology and History of Science from the National University of Tres de Febrero. He is Independent Researcher of CONICET and Teaching Assistant in the Department of Physics at the University of Buenos Aires. Areas of interest: philosophy of physics and philosophy of chemistry.",
     photo_profil: "/images/members/avatar-2.jpg",
     contact: {
+      personalPage: "https://www.filoexactas.exactas.uba.ar/sfortin/",
       email: "sfortin@conicet.gov.ar",
     },
     type: "researcher",
@@ -74,7 +75,7 @@ export const team_members_researcher = [
     id: 6,
     name: "Roberto Laura",
     description:
-      "Federico has a degree and a PhD in Physics from the University of Buenos Aires. He did postdoctoral studies at the National University of La Plata and University Paris VII Denis Diderot. He is Associate Researcher of CONICET. Areas of interest: foundations of physics.",
+      "Roberto has a degree in Physics from the National University of Rosario and a PhD in Physics from the National University of La Plata. He did postdoctoral studies at Imperial College of Science and Technology in London, and at the Solvay Instituts Internationaux de Physique et de Chimie Brussels. He is Full Professor at the National University of Rosario. Areas of interest: foundations of physics.",
     photo_profil: "/images/members/avatar-6.png",
     contact: {
       email: "rlaura@fceia.unr.edu.ar",
@@ -87,7 +88,7 @@ export const team_members_researcher = [
     id: 7,
     name: "Juan Camilo Martínez González",
     description:
-      "Federico has a degree and a PhD in Physics from the University of Buenos Aires. He did postdoctoral studies at the National University of La Plata and University Paris VII Denis Diderot. He is Associate Researcher of CONICET. Areas of interest: foundations of physics.",
+      "Juan Camilo has a degree in Chemistry from University Francisco José de Caldas of Bogotá, and a PhD in Epistemology and History of Science from the National University of Tres de Febrero. He did postdoctoral studies at the Hebrew University of Jerusalem, and at the University of Buenos Aires with a grant of CONICET. He was admitted as Assistant Researcher of CONICET to join 2022. Areas of interest: philosophy of chemistry.",
     photo_profil: "/images/members/avatar-7.png",
     contact: {
       email: "olimac62@hotmail.com",
@@ -102,7 +103,7 @@ export const team_members_researcher = [
     id: 8,
     name: "Leonardo Vanni",
     description:
-      "Federico has a degree and a PhD in Physics from the University of Buenos Aires. He did postdoctoral studies at the National University of La Plata and University Paris VII Denis Diderot. He is Associate Researcher of CONICET. Areas of interest: foundations of physics.",
+      "Leonardo has a degree an a PhD in Physics from the University of Buenos Aires and a PhD in Social Sciences and Humanities from the National University of Quilmes. He is Professor at the National University of General Sarmiento and the University of Buenos Aires. Areas of interest: philosophy of physics.",
     photo_profil: "/images/members/avatar-8.jpg",
     contact: {
       email: "idaeos@gmail.com",
@@ -115,7 +116,7 @@ export const team_members_researcher = [
     id: 9,
     name: "Marcelo Losada",
     description:
-      "Federico has a degree and a PhD in Physics from the University of Buenos Aires. He did postdoctoral studies at the National University of La Plata and University Paris VII Denis Diderot. He is Associate Researcher of CONICET. Areas of interest: foundations of physics.",
+      "Marcelo has a degree and a PhD in Physics from the University of Buenos Aires. He did postdoctoral studies at the University of Buenos Aires with a grant of CONICET. He is Teaching Assistant at the University of Buenos Aires. He was admitted as Assistant Researcher of CONICET to join 2022. Areas of interest: foundations of physics.",
     photo_profil: "/images/members/avatar-9.png",
     contact: {
       email: "marcelolosada@yahoo.com",
